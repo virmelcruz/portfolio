@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d dist/"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,8 @@
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
     "webpack": "^4.39.2"
   },
   "devDependencies": {
@@ -25,6 +27,7 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.7.2",
